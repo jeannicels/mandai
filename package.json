@@ -1,0 +1,16 @@
+{
+  "name": "mandai",
+  "version": "0.1.0",
+  "description": "Mandai habitats interactive experience — static p5.js frontend (Night Safari, Zoo/Land, River Wonder)",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve frontend",
+    "dev": "npx --yes serve frontend"
+  },
+  "keywords": [
+    "mandai",
+    "p5js",
+    "habitats"
+  ],
+  "license": "MIT"
+}

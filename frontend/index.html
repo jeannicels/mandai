@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mandai Habitats</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- p5.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.min.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Mandai Habitats</h1>
+      <nav id="habitat-nav" class="habitat-nav">
+        <!-- Buttons injected by main.js -->
+      </nav>
+    </header>
+
+    <main>
+      <p id="tagline" class="tagline"></p>
+      <div id="sketch-holder" class="sketch-holder"></div>
+    </main>
+
+    <!-- Habitat data (bundled with the frontend) -->
+    <script src="data/habitats.js"></script>
+
+    <!-- Sketch modules: each habitat exposes a drawing function -->
+    <script src="sketches/nightSafari.js"></script>
+    <script src="sketches/zoo.js"></script>
+    <script src="sketches/riverWonder.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
